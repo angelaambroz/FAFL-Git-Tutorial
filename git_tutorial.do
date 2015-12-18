@@ -40,4 +40,4 @@ import delimited "`DATA'/turnstile_data_master_with_weather.csv", clear
 //tab
 tabstat entriesn_hourly, s(n mean) by(hour)
 	
-
+di as error "Hiiiiiii"
